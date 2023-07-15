@@ -1,7 +1,7 @@
 SUMMARY = "TorizonCore k3s"
 DESCRIPTION = "TorizonCore Linux with k3s."
 
-require torizon-core-container.inc
+require recipes-images/images/torizon-core-container.inc
 
 CORE_IMAGE_BASE_INSTALL:append = " \
     k3s \
