@@ -1,5 +1,5 @@
-SUMMARY = "TorizonCore k3s"
-DESCRIPTION = "TorizonCore Linux with k3s."
+SUMMARY = "TorizonCore K3s Server Node"
+DESCRIPTION = "TorizonCore Linux with K3s Server."
 
 require recipes-images/images/torizon-core-container.inc
 
